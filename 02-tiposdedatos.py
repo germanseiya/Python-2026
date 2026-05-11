@@ -19,3 +19,9 @@ print(f"El area del triangulo es de {area} cm")
 #Salida de numeros en PI
 PI = 3.141592653589793
 print(f"El numero PI tiene un valor de {PI: .2f}")
+
+#cadena de texto
+carrera = "Ingenieria Civil en Informatica"
+institucion = "Universidad de Los Lagos"
+
+print(carrera[0/10]) #cortando strings
