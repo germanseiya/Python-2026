@@ -13,3 +13,18 @@ e) Calcule la “brecha de rendimiento”, que corresponde a la resta entre el t
 máximo y el mínimo.
 f ) Imprima en pantalla la lista completa de datos y el reporte con el promedio y la
 brecha calculada."""
+
+consumo = []
+Consumo_RAM = []
+Tiempo = []
+print("Ingrese el consumo de RAM en GB para cada instante del día:")
+for i in range(3):
+    
+    monto_consumo = str(input(f"  Momento de el día: "))
+    consumo.append(monto_consumo)
+    
+    monto_consumo_ram = float(input(f"  Valor del consumo de RAM: "))
+    Consumo_RAM.append(monto_consumo_ram)
+
+print(f"El promedio de consumo de RAM durante el día es: {sum(Consumo_RAM) / len(Consumo_RAM): .2f}GB")
+print(f"El rango de operación (la diferencia entre el consumo máximo y el mínimo) es: {max(Consumo_RAM) - min(Consumo_RAM): .1f}GB")
