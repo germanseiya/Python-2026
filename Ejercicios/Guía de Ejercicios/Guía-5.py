@@ -17,10 +17,10 @@ brecha calculada."""
 consumo = []
 Consumo_RAM = []
 Tiempo = []
-print("Ingrese el consumo de RAM en GB para cada instante del día:")
+print("Ingrese el consumo de RAM en GB para cada tiempo de respuesta:")
 for i in range(3):
     
-    monto_consumo = str(input(f"  Momento de el día: "))
+    monto_consumo = float(input(f"  Tiempos de Respuesta: "))
     consumo.append(monto_consumo)
     
     monto_consumo_ram = float(input(f"  Valor del consumo de RAM: "))
