@@ -1,5 +1,5 @@
 #se le pide al usuario que escriba su código identificado
-registro_sucio= input("Escriba su código identificador")
+registro_sucio= input("Escriba su código identificador ")
 
 #se borran los espacios en blanco de los extremos
 registro_sin_espacios=(registro_sucio.strip())
