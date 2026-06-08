@@ -1,5 +1,5 @@
 #creando una tupla tipo string
-estudiantes = ("Germán", "Benjamin", "Felipe", "Martín")
+estudiantes = ("Germán", "Benjamín", "Felipe", "Martín")
 print(type(estudiantes))
 print(estudiantes)
 print(f"Tupla: [estudiantes]")
@@ -17,4 +17,6 @@ print(f"LISTA: [lista_asignaturas]")
 lista_asignaturas.pop()
 print(f"Lista con ultimo elemento eliminado: [lista_asignaturas]")
 
-print(estudiantes.index("Martín")) #Se muestra la posición del elemento Martín en la tupla estudiantes
+print(estudiantes.index("Martín"))
+
+print(sorted(estudiantes))
