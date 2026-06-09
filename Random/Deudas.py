@@ -3,7 +3,7 @@ impuestos = []
 
 print("--- SISTEMA DE GESTIÓN DE DEUDAS ---")
 
-filas_totales = 17 
+filas_totales = 18 
 
 for i in range(1, filas_totales + 1):
     print(f"\nIngresando datos para la fila {i}:")
