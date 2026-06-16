@@ -46,3 +46,6 @@ else:
 
 if (not bencina or encendido) or (encendido and edad >= 8):
     print("El vehiculo puede arrancar")
+else:
+    print("El vehiculo puede arrancar")
+
