@@ -53,8 +53,10 @@ for i in range (1,2,3,4,5,6,7,8,9,10):
     print(i)
 listita = [1,2,3,4,5,6,7,8,9,10]
 
+print(Fore.GREEN + "\n2=== Bucle FOR ===")
 for i in listita:
     print(i)
 
+print(Fore.GREEN + "\n3=== Bucle FOR ===")
 for i in range(1,101):
     print(i)
