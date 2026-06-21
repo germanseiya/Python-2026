@@ -11,6 +11,8 @@ Ejemplo:
 Imprimir por pantalla, los primeros n cubos, considerando el valor de n obtenido desde
 teclado."""
 
+#Martín Aguirre y Germán Cortés
+
 from colorama import init, Fore
 init()
 

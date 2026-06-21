@@ -40,3 +40,8 @@ saje similar a lo siguiente: “Capturó a PeonN en B5”.
 f) Reporte tras cada turno
 Redibuja el tablero con los cambios.
 Imprime la lista capturadas (convertida a símbolos ASCII)."""
+
+#Martín Aguirre y Germán Cortés
+
+from colorama import init, Fore
+init()

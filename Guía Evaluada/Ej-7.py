@@ -4,6 +4,8 @@ n! = n · (n - 1) · (n - 2)..,3 · 2 · 1
 factorial(x) = 1                     si x = 0
                x · factorial(x - 1)  si x ≥ 1"""
 
+#Martín Aguirre y Germán Cortés
+
 from colorama import init, Fore
 init()
 

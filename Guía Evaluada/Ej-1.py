@@ -11,6 +11,8 @@ minúsculas).
 Requisito especial: Si el párrafo está vacío, debe lanzar y capturar una excepción (Va-
 lueError) indicando “El texto no puede estar vacío”."""
 
+#Martín Aguirre y Germán Cortés
+
 parrafo = input("ingrese un párrafo: ").strip()
 try:
     if not parrafo:

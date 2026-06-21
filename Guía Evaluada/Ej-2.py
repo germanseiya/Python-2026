@@ -1,6 +1,8 @@
 """2. Construir un programa que calcule e imprima la sumatoria:
 S = 500 + 456 + 510 + 454 + 520 + 452 + ... + 800"""
 
+#Martín Aguirre y Germán Cortés
+
 from colorama import init, Fore
 init()
 

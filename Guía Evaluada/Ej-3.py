@@ -15,6 +15,8 @@ d) Imprime un reporte con el total del sueldo a pagar por cada vendedor.
 Los nombres de los vendedores y los valores de las ventas deben estar instanciado en
 código (Hardcodeado)."""
 
+#Martín Aguirre y Germán Cortés
+
 from colorama import init, Fore
 init()
 
