@@ -16,6 +16,9 @@ paciente = {
     'Diagóstico' : 'Resfrio Común'
     
 }
+medico = {
+    
+}
 print(paciente.keys())
 print(paciente.value())
 print(paciente.items())
