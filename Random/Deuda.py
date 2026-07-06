@@ -11,3 +11,8 @@ while i <= dias:
 print("valor total ",resumen,"valor del impuesto", impuesto, "valor del impuesto ya calculado ",impuesto1)
 total = resumen + impuesto1
 print("lo que da de valor", total)
+
+def Hello(halo):
+    print(halo)
+
+Hello("Hola")
