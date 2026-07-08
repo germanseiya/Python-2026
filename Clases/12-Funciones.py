@@ -23,7 +23,7 @@ def factorial_recursivo(n):
 print(factorial_recursivo(5))
 
 def fibonacci_recursivo(n):
-    if n ==0:
+    if n == 0:
         return 0
     elif n == 1:
         return 1 
