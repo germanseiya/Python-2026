@@ -42,10 +42,6 @@ Redibuja el tablero con los cambios.
 Imprime la lista capturadas (convertida a símbolos ASCII)."""
 
 #Martín Aguirre y Germán Cortés
-
-from colorama import init, Fore
-init()
-
 tablero = dict(
     letra = [" A ", " B ", " C ", " D ", " E ", " F ", " G ", " H "],
     uno = ["NT1", "NC1", "NA1", "NR ", "NK ", "NA2", "NC2", "NT2"],
