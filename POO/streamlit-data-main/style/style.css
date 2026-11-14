@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+p,
+ol,
+ul,
+dl {
+    margin: 0px 0px 0rem !important;
+    padding: 0px;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+/* PAG 2024-10-29 
+se han actualizado los estilos de la portada y de las tarjetas de métricas
+*/
+h1,
+h2,
+h3,
+p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+p {
+    color: #000;
+    margin: 0px 0px 0rem !important;
+    padding: 0px;
+    font-size: 1em;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.st-emotion-cache-1ibsh2c {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+
+.st-emotion-cache-1ibsh2c {
+    width: 100%;
+    padding: 3rem 2rem 4rem !important;
+    max-width: initial;
+    min-width: auto;
+}
+
+.stAlert {
+    padding: 1rem 1.2rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.stAlert p {
+    margin: 0;
+    padding: 1 1rem 1 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+}
