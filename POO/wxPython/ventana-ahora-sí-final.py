@@ -15,7 +15,7 @@ class MiAplicacion(wx.Frame):
         img_path = os.path.join(carpeta, "Miku.jpg")
         if os.path.exists(img_path):
             image = wx.Image(img_path, wx.BITMAP_TYPE_ANY)
-            image = image.Scale(1920, 1080, wx.IMAGE_QUALITY_HIGH)
+            image = image.Scale(500, 500, wx.IMAGE_QUALITY_HIGH)
             self.bitmap = wx.Bitmap(image)
             self.img_ctrl = wx.StaticBitmap(panel, bitmap=self.bitmap, pos=(0, 0))
 
